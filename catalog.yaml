@@ -1,43 +1,13 @@
 packages:
-  - name: robonix.primitive.agilex.piper.arm.piper_rk3588
-    repo: https://github.com/syswonder/robot-agilex-piper-rk3588
-    path: packages/primitives/primitive-agilex-piper-arm-rbnx
-  - name: robonix.primitive.agilex.piper.description.piper_rk3588
-    repo: https://github.com/syswonder/robot-agilex-piper-rk3588
-    path: packages/primitives/primitive-agilex-piper-description-rbnx
-  - name: robonix.primitive.audio.client_bridge.piper_rk3588
-    repo: https://github.com/syswonder/robot-agilex-piper-rk3588
-    path: packages/primitives/primitive-audio-client-bridge-rbnx
-  - name: robonix.primitive.audio.mic.piper_rk3588
-    repo: https://github.com/syswonder/robot-agilex-piper-rk3588
-    path: packages/primitives/primitive-audio-mic-rbnx
-  - name: robonix.primitive.orbbec.dabai_dcw.camera.piper_rk3588
-    repo: https://github.com/syswonder/robot-agilex-piper-rk3588
-    path: packages/primitives/primitive-orbbec-dabai_dcw-camera-rbnx
-  - name: robonix.service.grasp_pose.piper_rk3588
-    repo: https://github.com/syswonder/robot-agilex-piper-rk3588
-    path: packages/services/service-grasp-pose-rbnx
   - name: robonix.service.memgraph
     repo: https://github.com/syswonder/robonix
     path: services/memory
   - name: robonix.service.memsearch
     repo: https://github.com/syswonder/robonix
     path: services/memsearch
-  - name: robonix.service.object_detect.piper_rk3588
-    repo: https://github.com/syswonder/robot-agilex-piper-rk3588
-    path: packages/services/service-object-detect-rbnx
-  - name: robonix.service.perception.yolo_rk3588
-    repo: https://github.com/syswonder/robot-agilex-piper-rk3588
-    path: yolo_npu
-  - name: robonix.service.roboarm.ik.piper_rk3588
-    repo: https://github.com/syswonder/robot-agilex-piper-rk3588
-    path: packages/services/service-roboarm-ik-rbnx
   - name: robonix.service.speech
     repo: https://github.com/syswonder/robonix
     path: services/speech
-  - name: robonix.service.speech.piper_rk3588
-    repo: https://github.com/syswonder/robot-agilex-piper-rk3588
-    path: packages/services/service-speech
   - name: robonix.service.voiceprint
     repo: https://github.com/syswonder/robonix
     path: services/voiceprint
@@ -47,9 +17,6 @@ packages:
   - name: robonix.service.vlm_verifier
     repo: https://github.com/syswonder/robonix
     path: services/verifiers/vlm_verifier
-  - name: robonix.skill.pick.vertical_grasp_piper.piper_rk3588
-    repo: https://github.com/syswonder/robot-agilex-piper-rk3588
-    path: packages/skills/skill-pick-vertical-grasp-piper-rbnx
   - name: robonix.skill.unitree.go2.sport_actions
     repo: https://github.com/syswonder/skill-unitree-go2-sport-actions-rbnx
   - name: robonix.primitive.mirrorme.bpx.quadruped
